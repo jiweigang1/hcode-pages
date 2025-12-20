@@ -11,8 +11,7 @@
     "build-and-copy": "npm run build && npm run copy",
     "server": "hexo serve",
     "eslint": "eslint .",
-    "format:md": "prettier --write */**/docs/*.md */**/api/*.md",
-    "prepare": "node .husky/install.mjs"
+    "format:md": "prettier --write */**/docs/*.md */**/api/*.md"
   },
   "dependencies": {
     "@node-rs/jieba": "^2.0.1",
@@ -36,7 +35,6 @@
   "devDependencies": {
     "eslint": "^9.39.1",
     "eslint-config-hexo": "^6.0.0",
-    "husky": "^9.0.6",
     "imagemin-lint-staged": "^0.5.1",
     "lint-staged": "^16.1.6",
     "prettier": "3.6.2"
