@@ -1,7 +1,7 @@
 ---
 layout: index
 description: 一个懂你的、智能编程助手。
-subtitle: 一个懂你的 智能编程助手
+subtitle: 一个懂你的、智能编程助手
 comments: false
 ---
 
@@ -11,8 +11,8 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-bolt"></i>
       </div>
-      <h3 class="intro-feature-title">超快速度</h3>
-      <p class="intro-feature-desc">Node.js 所带来的超快生成速度。 上百个页面在几秒内完成渲染。</p>
+      <h3 class="intro-feature-title">代码理解</h3>
+      <p class="intro-feature-desc">可以理解复杂代码库，上下文感知理解。自动读取、分析整个项目结构并自主开发，提供相关解决方案。</p>
     </div>
   </li>
   <li class="intro-feature-wrap">
@@ -20,22 +20,22 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-pencil"></i>
       </div>
-      <h3 class="intro-feature-title">支持 Markdown</h3>
-      <p class="intro-feature-desc">Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</p>
+      <h3 class="intro-feature-title">全栈开发</h3>
+      <p class="intro-feature-desc">前后端代码一站式开发，从零构建复杂的系统工程，自动构建项目代码、数据库开发。</p>
     </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cloud-upload"></i>
       </div>
-      <h3 class="intro-feature-title">一键部署</h3>
-        <p class="intro-feature-desc">只需一条指令即可部署到 GitHub Pages, Heroku 或其他平台。</p>
+      <h3 class="intro-feature-title">多模型支持</h3>
+        <p class="intro-feature-desc">支持多种模型调用，用户可以自主选择自己业务匹配和经济实惠的模型。</p>
       </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cog"></i>
       </div>
-      <h3 class="intro-feature-title">插件</h3>
-      <p class="intro-feature-desc">强大的 API 带来无限的可能。 支持数种模板引擎（EJS，Pug，Nunjucks等）。 可以与现有的NPM包 (Babel, PostCSS, Less/Sass 等) 轻松地集成。</p>
+      <h3 class="intro-feature-title">插件集成</h3>
+      <p class="intro-feature-desc">支持 MCP、用户自定义 Command 、 Skill、Subagent ，灵活扩展 。</p>
     </div>
   </li>
 </ul>

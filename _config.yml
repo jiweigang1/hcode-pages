@@ -23,12 +23,12 @@ highlight:
   enable: true
   line_number: false
 
-disqus_shortname: hexojs
+# disqus_shortname: hawacode  # 已禁用Disqus评论功能
 google_analytics: UA-48498357-3
 fb_admins: 100000247608790
 algolia:
-  app_id: 7HZ261W96L
-  api_key: cb702f6ec26558e81b1f650f2e793b28
-  index_name: hexo
-twitter: hexojs
+  app_id: 92MM5ICJU3
+  api_key: 64d254213e6c3157c3abc2bc74228632
+  index_name: hawacode
+twitter: hawacode
 github: italking/hawa-code

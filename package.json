@@ -7,6 +7,8 @@
   },
   "scripts": {
     "build": "hexo generate",
+    "copy": "node copy-public.js",
+    "build-and-copy": "npm run build && npm run copy",
     "server": "hexo serve",
     "eslint": "eslint .",
     "format:md": "prettier --write */**/docs/*.md */**/api/*.md",
