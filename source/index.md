@@ -1,7 +1,7 @@
 ---
 layout: index
-description: Hexo 是一个由Node.js驱动的快速、简单的 & 强大的博客框架。
-subtitle: 快速、简洁且高效的博客框架
+description: 一个懂你的、智能编程助手。
+subtitle: 一个懂你的 智能编程助手
 comments: false
 ---
 
