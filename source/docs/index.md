@@ -1,111 +1,111 @@
 ---
-title: Documentation
+title: 文档
 ---
 
-Welcome to the Hexo documentation. If you encounter any problems when using Hexo, have a look at the [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/hexojs/hexo/issues) or start a topic on the [Google Group](https://groups.google.com/group/hexo).
+欢迎使用 Hexo，本文档将帮助您快速上手。 如果您在使用过程中遇到问题，请查看 [问题解答](troubleshooting.html) 中的解答，或者在 [GitHub](https://github.com/hexojs/hexo/issues)、[Google Group](https://groups.google.com/group/hexo) 上提问。
 
-## What is Hexo?
+## 什么是 Hexo？
 
-Hexo is a fast, simple and powerful blog framework. You write posts in [Markdown](http://daringfireball.net/projects/markdown/) (or other markup languages) and Hexo generates static files with a beautiful theme in seconds.
+Hexo 是一个快速、简洁且高效的博客框架。 Hexo 使用 [Markdown](http://daringfireball.net/projects/markdown/)（或其他标记语言）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
-## Installation
+## 安装
 
-It only takes a few minutes to set up Hexo. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/hexojs/hexo/issues) and we'll help.
+设置 Hexo 只需几分钟。 如果您遇到问题，并且在这里找不到解决方案，请[提交 GitHub 问题](https://github.com/hexojs/hexo/issues)，我们将提供帮助。
 
-{% youtube ARted4RniaU %}
+{% youtube PsXWbI2Mqu0 %}
 
-### Requirements
+### 要求
 
-Installing Hexo is quite easy and only requires the following beforehand:
+安装 Hexo 相当简单，只需要先安装下列应用程序即可：
 
-- [Node.js](http://nodejs.org/) (See [Required Node.js version](#Required-Node-js-version))
+- [Node.js](http://nodejs.org/) (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)
 - [Git](http://git-scm.com/)
 
-If your computer already has these, congratulations! You can skip to the [Hexo installation](#Install-Hexo) step.
+如果您的电脑中已经安装上述必备程序，那么恭喜您！ 你可以直接前往 [安装 Hexo](#安装-Hexo) 步骤。
 
-If not, please follow the following instructions to install all the requirements.
+如果您的电脑中尚未安装所需要的程序，请根据以下安装指示完成安装。
 
-### Install Git
+### 安装 Git
 
-- Windows: Download & install [git](https://git-scm.com/download/win).
-- Mac: Install it with [Homebrew](https://brew.sh/), [MacPorts](http://www.macports.org/) or [installer](http://sourceforge.net/projects/git-osx-installer/).
-- Linux (Ubuntu, Debian): `sudo apt-get install git-core`
-- Linux (Fedora, Red Hat, CentOS): `sudo yum install git-core`
+- Windows：下载并安装 [git](https://git-scm.com/download/win)。
+- Mac：使用 [Homebrew](http://mxcl.github.com/homebrew/), [MacPorts](http://www.macports.org/) 或者下载 [安装程序](http://sourceforge.net/projects/git-osx-installer/)。
+- Linux (Ubuntu, Debian)：`sudo apt-get install git-core`
+- Linux (Fedora, Red Hat, CentOS)：`sudo yum install git-core`
 
-{% note warn For Mac users %}
-You may encounter some problems when compiling. Please install Xcode from App Store first. After Xcode is installed, open Xcode and go to **Preferences -> Download -> Command Line Tools -> Install** to install command line tools.
+{% note warn Mac 用户 %}
+如果在编译时可能会遇到问题。 请先到 App Store 安装 Xcode。 Xcode 完成后，启动并进入 **Preferences -> Download -> Command Line Tools -> Install** 安装命令行工具。
 {% endnote %}
 
-### Install Node.js
+### 安装 Node.js
 
-Node.js provides [official installer](https://nodejs.org/en/download/) for most platforms.
+Node.js 为大多数平台提供了官方的 [安装程序](https://nodejs.org/zh-cn/download/)。
 
-Alternative installation methods:
+其它的安装方法：
 
-- Windows: Install it with [nvs](https://github.com/jasongin/nvs/) (recommended) or [nvm](https://github.com/nvm-sh/nvm).
-- Mac: Install it with [Homebrew](https://brew.sh/) or [MacPorts](http://www.macports.org/).
-- Linux (DEB/RPM-based): Install it with [NodeSource](https://github.com/nodesource/distributions).
-- Others: Install it through respective package manager. Refer to [the guide](https://nodejs.org/en/download/package-manager/) provided by Node.js.
+- Windows：通过 [nvs](https://github.com/jasongin/nvs/)（推荐）或者 [nvm](https://github.com/nvm-sh/nvm) 安装。
+- Mac：使用 [Homebrew](https://brew.sh/) 或 [MacPorts](http://www.macports.org/) 安装。
+- Linux（DEB/RPM-based）：从 [NodeSource](https://github.com/nodesource/distributions) 安装。
+- 其它：使用相应的软件包管理器进行安装。 可以参考由 Node.js 提供的 [指导](https://nodejs.org/en/download/package-manager/)。
 
-nvs is also recommended for Mac and Linux to avoid possible permission issue.
+对于 Mac 和 Linux 同样建议使用 nvs 或者 nvm，以避免可能会出现的权限问题。
 
 {% note info Windows %}
-If you use the official installer, make sure **Add to PATH** is checked (it's checked by default).
+使用 Node.js 官方安装程序时，请确保勾选 **Add to PATH** 选项（默认已勾选）
 {% endnote %}
 
 {% note warn Mac / Linux %}
-If you encounter `EACCES` permission error when trying to install Hexo, please follow [the workaround](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) provided by npmjs; overriding with root/sudo is highly discouraged.
+如果在尝试安装 Hexo 的过程中出现 `EACCES` 权限错误，请遵循 [由 npmjs 发布的指导](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) 修复该问题。
 {% endnote %}
 
 {% note info Linux %}
-If you installed Node.js using Snap, you may need to manually run `npm install` in the target folder when [initializing](/docs/commands#init) a blog.
+如果您使用 Snap 来安装 Node.js，在 [初始化](/zh-cn/docs/commands#init) 博客时您可能需要手动在目标文件夹中执行 `npm install`。
 {% endnote %}
 
-### Install Hexo
+### 安装 Hexo
 
-Once all the requirements are installed, you can install Hexo with npm:
+所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。
 
 ```bash
 $ npm install -g hexo-cli
 ```
 
-### Advanced installation and usage
+### 进阶安装和使用
 
-Advanced users may prefer to install and use `hexo` package instead.
+对于熟悉 npm 的进阶用户，可以仅局部安装 `hexo` 包。
 
 ```bash
 $ npm install hexo
 ```
 
-Once installed, you can run Hexo in two ways:
+安装以后，可以使用以下两种方式执行 Hexo：
 
 1. `npx hexo <command>`
-2. Linux users can set relative path of `node_modules/` folder:
+2. Linux 用户可以将 Hexo 所在的目录下的 `node_modules` 添加到环境变量之中即可直接使用 `hexo <command>`：
 
 ```bash
 echo 'PATH="$PATH:./node_modules/.bin"' >> ~/.profile
 ```
 
-then run Hexo using `hexo <command>`
+安装 Hexo 只需几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，请 [提交问题](https://github.com/hexojs/hexo/issues)，我们会尽力解决您的问题。
 
-### Required Node.js version
+### Node.js 版本限制
 
-If you are stuck with older Node.js, you can consider installing a past version of Hexo.
+如果你坚持使用旧的 Node.js，你可以考虑安装 Hexo 的过去版本。
 
-Please note we do not provide bugfixes to past versions of Hexo.
+请注意，我们不提供对过去版本 Hexo 的错误修复。
 
-We highly recommend to always install the [latest version](https://www.npmjs.com/package/hexo?activeTab=versions) of Hexo and the [recommended version](#Requirements) of Node.js, whenever possible.
+我们强烈建议永远安装 [最新版本](https://www.npmjs.com/package/hexo?activeTab=versions) 的 Hexo，以及 [推荐的 Node.js 版本](#安装前提)。
 
-| Hexo version | Minimum (Node.js version) | Less than (Node.js version) |
-| ------------ | ------------------------- | --------------------------- |
-| 8.0+         | 20.19.0                    | latest                      |
-| 7.0+         | 14.0.0                    | latest                      |
-| 6.2+         | 12.13.0                   | latest                      |
-| 6.0+         | 12.13.0                   | 18.5.0                      |
-| 5.0+         | 10.13.0                   | 12.0.0                      |
-| 4.1 - 4.2    | 8.10                      | 10.0.0                      |
-| 4.0          | 8.6                       | 8.10.0                      |
-| 3.3 - 3.9    | 6.9                       | 8.0.0                       |
-| 3.2 - 3.3    | 0.12                      | unknown                     |
-| 3.0 - 3.1    | 0.10 or iojs              | unknown                     |
-| 0.0.1 - 2.8  | 0.10                      | unknown                     |
+| Hexo 版本   | 最低版本 (Node.js 版本) | 最高版本 (Node.js 版本) |
+| ----------- | ----------------------- | ----------------------- |
+| 8.0+        | 20.19.0                 | latest                  |
+| 7.0+        | 14.0.0                  | latest                  |
+| 6.2+        | 12.13.0                 | latest                  |
+| 6.0+        | 12.13.0                 | 18.5.0                  |
+| 5.0+        | 10.13.0                 | 12.0.0                  |
+| 4.1 - 4.2   | 8.10                    | 10.0.0                  |
+| 4.0         | 8.6                     | 8.10.0                  |
+| 3.3 - 3.9   | 6.9                     | 8.0.0                   |
+| 3.2 - 3.3   | 0.12                    | 未知                    |
+| 3.0 - 3.1   | 0.10 或 iojs            | 未知                    |
+| 0.0.1 - 2.8 | 0.10                    | 未知                    |

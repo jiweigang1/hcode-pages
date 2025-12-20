@@ -1,9 +1,9 @@
-title: Hexo
-subtitle: "A fast, simple & powerful blog framework powered by Node.js."
-description: "Hexo is a fast, simple & powerful blog framework powered by Node.js."
-author: Hexo
+title: Hawa Code
+subtitle: "一个快速、简洁且强大的Node.js博客框架。"
+description: "Hexo 是一个快速、简洁且强大的Node.js博客框架。"
+author: Hawa Code
 language: en
-timezone: UTC
+timezone: Asia/Shanghai
 
 url: https://hexo.io
 root: /
@@ -31,4 +31,4 @@ algolia:
   api_key: cb702f6ec26558e81b1f650f2e793b28
   index_name: hexo
 twitter: hexojs
-github: hexojs/hexo
+github: italking/hawa-code

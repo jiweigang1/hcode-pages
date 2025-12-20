@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "scripts": {
     "build": "hexo generate",
+    "server": "hexo serve",
     "eslint": "eslint .",
     "format:md": "prettier --write */**/docs/*.md */**/api/*.md",
     "prepare": "node .husky/install.mjs"

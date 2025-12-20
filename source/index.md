@@ -1,7 +1,7 @@
 ---
 layout: index
-description: Hexo is a fast, simple & powerful blog framework powered by Node.js.
-subtitle: A fast, simple & powerful blog framework
+description: Hexo 是一个由Node.js驱动的快速、简单的 & 强大的博客框架。
+subtitle: 快速、简洁且高效的博客框架
 comments: false
 ---
 
@@ -11,8 +11,8 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-bolt"></i>
       </div>
-      <h3 class="intro-feature-title">Blazing Fast</h3>
-      <p class="intro-feature-desc">Incredible generating speed powered by Node.js. Hundreds of files take only seconds to build.</p>
+      <h3 class="intro-feature-title">超快速度</h3>
+      <p class="intro-feature-desc">Node.js 所带来的超快生成速度。 上百个页面在几秒内完成渲染。</p>
     </div>
   </li>
   <li class="intro-feature-wrap">
@@ -20,22 +20,22 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-pencil"></i>
       </div>
-      <h3 class="intro-feature-title">Markdown Support</h3>
-      <p class="intro-feature-desc">All features of GitHub Flavored Markdown are supported, including most Octopress plugins.</p>
+      <h3 class="intro-feature-title">支持 Markdown</h3>
+      <p class="intro-feature-desc">Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</p>
     </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cloud-upload"></i>
       </div>
-      <h3 class="intro-feature-title">One-Command Deployment</h3>
-        <p class="intro-feature-desc">You only need one command to deploy your site to GitHub Pages, Heroku or other platforms.</p>
+      <h3 class="intro-feature-title">一键部署</h3>
+        <p class="intro-feature-desc">只需一条指令即可部署到 GitHub Pages, Heroku 或其他平台。</p>
       </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cog"></i>
       </div>
-      <h3 class="intro-feature-title">Plugins</h3>
-      <p class="intro-feature-desc">Features powerful APIs for limitless extensibility. Various plugins are available to support most template engines (EJS, Pug, Nunjucks, and many others). Easily integrate with existing NPM packages (Babel, PostCSS, Less/Sass, etc).</p>
+      <h3 class="intro-feature-title">插件</h3>
+      <p class="intro-feature-desc">强大的 API 带来无限的可能。 支持数种模板引擎（EJS，Pug，Nunjucks等）。 可以与现有的NPM包 (Babel, PostCSS, Less/Sass 等) 轻松地集成。</p>
     </div>
   </li>
 </ul>
