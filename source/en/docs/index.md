@@ -38,7 +38,8 @@ npm install -g  @dahawa/hawa-code
       "BASE_URL": "https://openrouter.ai/api/v1",
       "AUTH_TOKEN": "sk-or-v1-{ use your own token }",
       "MODEL": "anthropic/claude-sonnet-4",
-      "SMALL_FAST_MODEL": "anthropic/claude-sonnet-4"
+      "SMALL_FAST_MODEL": "anthropic/claude-sonnet-4",
+       "API_TYPE":"openai"
     }
   }
 }
