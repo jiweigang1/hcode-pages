@@ -1,7 +1,7 @@
 ---
 layout: index
-description: Hexo is a fast, simple & powerful blog framework powered by Node.js.
-subtitle: A fast, simple & powerful blog framework
+description: An intelligent programming assistant that understands you.
+subtitle: An intelligent programming assistant that understands you
 comments: false
 ---
 
@@ -11,8 +11,8 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-bolt"></i>
       </div>
-      <h3 class="intro-feature-title">Blazing Fast</h3>
-      <p class="intro-feature-desc">Incredible generating speed powered by Node.js. Hundreds of files take only seconds to build.</p>
+      <h3 class="intro-feature-title">Code Understanding</h3>
+      <p class="intro-feature-desc">Can understand complex codebases with context-aware comprehension. Automatically reads, analyzes entire project structures and develops independently, providing relevant solutions.</p>
     </div>
   </li>
   <li class="intro-feature-wrap">
@@ -20,22 +20,22 @@ comments: false
       <div class="intro-feature-icon">
         <i class="fa fa-pencil"></i>
       </div>
-      <h3 class="intro-feature-title">Markdown Support</h3>
-      <p class="intro-feature-desc">All features of GitHub Flavored Markdown are supported, including most Octopress plugins.</p>
+      <h3 class="intro-feature-title">Full-Stack Development</h3>
+      <p class="intro-feature-desc">One-stop development for frontend and backend code, building complex system engineering from scratch, automatically constructing project code and database development.</p>
     </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cloud-upload"></i>
       </div>
-      <h3 class="intro-feature-title">One-Command Deployment</h3>
-        <p class="intro-feature-desc">You only need one command to deploy your site to GitHub Pages, Heroku or other platforms.</p>
+      <h3 class="intro-feature-title">Multi-Model Support</h3>
+        <p class="intro-feature-desc">Supports multiple model calls, users can independently choose models that match their business needs and are cost-effective.</p>
       </div></li><li class="intro-feature-wrap">
     <div class="intro-feature">
       <div class="intro-feature-icon">
         <i class="fa fa-cog"></i>
       </div>
-      <h3 class="intro-feature-title">Plugins</h3>
-      <p class="intro-feature-desc">Features powerful APIs for limitless extensibility. Various plugins are available to support most template engines (EJS, Pug, Nunjucks, and many others). Easily integrate with existing NPM packages (Babel, PostCSS, Less/Sass, etc).</p>
+      <h3 class="intro-feature-title">Plugin Integration</h3>
+      <p class="intro-feature-desc">Supports MCP, user-defined Commands, Skills, and Subagents, with flexible extensibility.</p>
     </div>
   </li>
 </ul>
