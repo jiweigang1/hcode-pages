@@ -1,3 +1,4 @@
 docs:
   getting_started:
     setup: index.html
+    lsp: lsp.html

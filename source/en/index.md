@@ -1,7 +1,7 @@
 ---
 layout: index
 description: An intelligent programming assistant that understands you.
-subtitle: An intelligent programming assistant that understands you
+subtitle: Hawa Code An intelligent programming assistant that understands you
 comments: false
 ---
 

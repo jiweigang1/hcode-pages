@@ -1,7 +1,7 @@
 ---
 layout: index
 description: 一个懂你的、智能编程助手。
-subtitle: 一个懂你的、智能编程助手
+subtitle: Hawa Code 一个懂你的、智能编程助手
 comments: false
 ---
 

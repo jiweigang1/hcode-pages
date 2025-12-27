@@ -1,6 +1,5 @@
 menu:
   docs: Docs
-  api: API
   news: News
   plugins: Plugins
   themes: Themes
@@ -25,7 +24,7 @@ sidebar:
     getting_started: Getting Started
     overview: Overview
     setup: Setup
-    configuration: Configuration
+    lsp: LSPServer
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage
