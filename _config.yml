@@ -5,7 +5,7 @@ author: Hawa Code
 language: zh-cn
 timezone: Asia/Shanghai
 
-url: https://hexo.io
+url: https://www.hawacode.com
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -18,6 +18,11 @@ pretty_urls:
   trailing_html: false
 
 theme: navy
+
+# Skip rendering for site verification files
+skip_render:
+  - google2d7bcbc923b77cd7.html
+  - BingSiteAuth.xml
 
 highlight:
   enable: true
@@ -32,3 +37,12 @@ algolia:
   index_name: hawacode
 twitter: hawacode
 github: italking/hawa-code
+
+# 网站地图生成插件配置
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+  exclude: 
+    - 404.html

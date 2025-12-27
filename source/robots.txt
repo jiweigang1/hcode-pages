@@ -1,4 +1,21 @@
 User-agent: *
+Allow: /
+
+# 禁止抓取主题和开发相关目录
 Disallow: /hexo-theme-landscape/
 Disallow: /hexo-theme-light/
 Disallow: /hexo-theme-phase/
+Disallow: /themes/
+Disallow: /node_modules/
+Disallow: /source/
+
+# 禁止抓取搜索和标签页面（避免重复内容）
+Disallow: /search/
+Disallow: /tags/
+Disallow: /categories/
+
+# 禁止抓取404页面
+Disallow: /404.html
+
+# 网站地图位置
+Sitemap: https://www.hawacode.com/sitemap.xml
