@@ -25,6 +25,8 @@ sidebar:
     overview: Overview
     setup: Setup
     lsp: LSPServer
+    models: Models
+    skill: Skill
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage

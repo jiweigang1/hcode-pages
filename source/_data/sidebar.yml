@@ -2,3 +2,5 @@ docs:
   getting_started:
     setup: index.html
     lsp: lsp.html
+    models: model.html
+    skill: skill.html
