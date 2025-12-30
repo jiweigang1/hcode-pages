@@ -4,3 +4,4 @@ docs:
     lsp: lsp.html
     models: model.html
     skill: skill.html
+    tool_lazy_loading: tool-lazy-loading.html

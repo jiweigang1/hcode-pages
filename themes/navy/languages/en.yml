@@ -27,6 +27,7 @@ sidebar:
     lsp: LSPServer
     models: Models
     skill: Skill
+    tool_lazy_loading: Tool Lazy Loading
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage

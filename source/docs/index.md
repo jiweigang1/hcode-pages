@@ -57,5 +57,5 @@ HCODE_GIT_BASH_PATH={git 安装目录}\bin\bash.exe
 环境变量配置方式
 - 直接使用 Windows 操作系统进行配置
 - 上述 config.json env 属性中进行配置
-- 项目路径/.hcode/.evn 文件中进行配置
+- 项目路径/.hcode/.env 文件中进行配置
 
