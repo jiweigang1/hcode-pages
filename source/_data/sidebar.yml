@@ -5,3 +5,4 @@ docs:
     models: model.html
     skill: skill.html
     tool_lazy_loading: tool-lazy-loading.html
+    mcp: mcp.html

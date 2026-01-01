@@ -28,6 +28,7 @@ sidebar:
     models: Models
     skill: Skill
     tool_lazy_loading: Tool Lazy Loading
+    mcp: MCP
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage
