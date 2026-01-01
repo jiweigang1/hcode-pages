@@ -29,6 +29,7 @@ sidebar:
     skill: Skill
     tool_lazy_loading: Tool Lazy Loading
     mcp: MCP
+    slash_commands: Slash Commands
     commands: Commands
     migration: Migration
     basic_usage: Basic Usage

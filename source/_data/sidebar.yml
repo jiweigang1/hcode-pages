@@ -6,3 +6,4 @@ docs:
     skill: skill.html
     tool_lazy_loading: tool-lazy-loading.html
     mcp: mcp.html
+    slash_commands: slash-commands.html
